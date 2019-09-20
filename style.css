@@ -1,0 +1,100 @@
+html {
+
+    background: url(background.jpg) bottom center;
+    background-size: contain;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+
+body{
+    justify-content: center;
+    text-align: center;
+
+}
+
+#buttons{
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    height: 50px;
+
+
+}
+button {
+    width: 330px;
+    height: 100%;
+    background-color: whitesmoke;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    border: 2px solid #5A3E36;
+    border-radius: 3px;
+    box-shadow: 3px 3px rgb(58, 39, 34);
+    outline: none;
+
+}
+button:hover {
+    background-color: #5A3E36;
+    color: white;
+  }
+
+
+
+h1 {
+
+    color: #5A3E36;
+    box-shadow: 10px;
+    border: 3px solid #5A3E36;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1000px;
+    background-color: whitesmoke;
+
+}
+
+
+#board {
+    background-color: #ccc;
+    height: 1000px;
+    padding: 0px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    border: 3px solid #5A3E36;
+
+  }
+
+
+
+  .pixel {
+      float: left;
+      height: 200px;
+      margin: 0px;
+      width: 200px;
+      background-color: whitesmoke;
+  }
+
+/* visible blocks
+
+
+  #board {
+    background-color: #ccc;
+    height: 1100px;
+    padding: 1px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 50px;
+
+  }
+  .pixel {
+    float: left;
+    height: 200px;
+    margin: 1px;
+    width: 200px;
+    background-color: #333;
+}
+*/
